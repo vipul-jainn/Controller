@@ -1,0 +1,69 @@
+
+.container{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+
+.imglogo{
+    width: 90px;
+}
+
+.menu-icon{
+    width: 18px;
+}
+
+
+nav ul li{
+   padding: 8px 10px;
+}
+
+.n{
+    margin-top: 40px;
+}
+
+.main .n h1{
+    font-size:35px;
+    
+}
+
+.main .n p{
+    font-size: 22px;
+}
+
+.main .n h5{
+    font-size: 12px;
+}
+
+.main .n span{
+    font-size: 15px;
+}
+
+.main  .btn{
+    width: 120px;
+}
+
+.igon{
+    width: 60%;
+
+}
+
+.igon .controller{
+    position: relative;
+    width: 70%;
+}
+
+.igon .colbox{
+    width: 70%;
+    transform: translateX(200px);
+}
+
+.colbox .addcart{
+    width: 25px;
+    height: 25px;
+    margin-left: 130px;
+}
+
+.colbox p{
+    margin-left: 150px;
+}

@@ -1,0 +1,49 @@
+
+
+.container{
+    overflow: hidden;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+
+nav ul li{
+   padding: 6px 8px;
+}
+
+.n{
+    margin-top: 40px;
+}
+
+.main .n h1{
+    font-size:40px; 
+}
+
+.main .n p{
+    font-size: 22px;
+}
+
+.main .n h5{
+    margin-bottom:18px;
+}
+
+
+.main .btn img{
+    width: 35px;
+}
+
+
+
+.igon{
+    width: 55%;
+}
+
+
+.igon .colbox{
+    width: 60%;
+    transform: translateX(250px);
+}
+
+.social-icon img{
+    height: 22px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1500px)" href="tab.css">
+    <link rel="stylesheet" media="screen and (max-width: 1130px)" href="phone.css">
+    <link rel="stylesheet" media="screen and (max-width: 1000px)" href="phone-4.css">
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="phone-3.css">
+    <link rel="stylesheet" media="screen and (max-width:600px)" href="phone-2.css">
+    <link rel="stylesheet" media="screen and (max-width:300px)" href="phone-5.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="logo.png" class="imglogo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="#">Game Controller</a></li>
+                    <li><a href="#">VR Accessories</a></li>
+                    <li><a href="#">Media Remotes</a></li>
+                    <li><a href="#">Others</a></li>
+                </ul>
+            </nav>
+            <img src="menu.png" id="menuicon" onclick="togglemenu()">
+        </div>
+        <div class="main">
+            <div class="n">
+                <h1>PS4 V2</h1>
+                <h1>Dualshock 4</h1>
+                <p>Wireless Controller for Playstation 4</p>
+                <h5>(Compatible/Generic)</h5>
+                <span>Rs.5,400</span><br>
+                <button class="btn">Buy Now<img src="arrow.png"></button>
+            </div>
+            <div class="igon">
+                <img src="controller.png" class="controller">
+                <div class="colbox">
+                    <img src="add.png" class="addcart">
+                    <p>Add to cart</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="social-icon">
+            <img src="fb.png" alt="">
+            <img src="tw.png" alt="">
+            <img src="ig.png" alt="">
+        </div>
+    </div>
+
+    <script>
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu(){
+
+            if( menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "150px"
+            }
+
+            else{
+                menuList.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+
+</html>
